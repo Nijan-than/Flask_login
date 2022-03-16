@@ -9,13 +9,17 @@ Flowchart in python file :
 1) Instance creation for Flask and Mysql
 
 a1= Flask(__name__)    # App is an instance for Flask declaration 
+
 mysql=MYSQL()           # mysql is a instance for MYSQL 
 
 2) Configuration of Database with Flask:
 
 a1.config['MYSQL_HOST'] = 'localhost'
+
 a1.config['MYSQL_USER'] = 'user'
+
 a1.config['MYSQL_PASSWORD'] = 'password'
+
 a1.config['MYSQL_DB'] = 'mydb1_new'
 
 mysql.init_app(a1)        #initiating the db 
