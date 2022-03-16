@@ -73,10 +73,10 @@ def login():
 
 # Home.html 
 
-<body>
-  <h1>Dashboard</h1>
-  <p>Loggedin to Dashboard</p>
-  <div>
-    <a href="{{url_for('logout')}}">logout</a>    # this url_for will rediret to logout function.
-  </div>
-</body>
+        <body>
+          <h1>Dashboard</h1>
+          <p>Loggedin to Dashboard</p>
+          <div>
+            <a href="{{url_for('logout')}}">logout</a>    # this url_for will rediret to logout function.
+          </div>
+        </body>
