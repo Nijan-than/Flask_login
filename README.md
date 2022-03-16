@@ -3,7 +3,8 @@ Requirements : flask and mysql-connector-python
 
 Need to understand the Flask flow from code01.py file to template files( home.html ,login.html ) and connectivity between rout,function.
 
-Flowchart in python file : code01.py ( •_•)>⌐■-■
+Flowchart in python file : 
+# code01.py
 
 1) Instance creation for Flask and Mysql
 
@@ -51,7 +52,7 @@ def login():
             return render_template('home.html')     #if data is available, which means entered username & password in login page available in DB wil redirect to mentioned template
                                                     # to home.html
 
-#Home.html 
+# Home.html 
 
 <body>
   <h1>Dashboard</h1>
